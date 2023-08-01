@@ -1,0 +1,45 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "flutter_application",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "flutter_application (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "flutter_application (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "Arijeet’s iPhone (mobile)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "00008110-0004713E1AFA801E"
+    },
+    {
+      "name": "iPhone 14 Pro Max (mobile)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "FC295F4D-49EC-4954-9398-A6C66D82947B"
+    },
+  ],
+  "compounds": [
+    {
+        "name": "All Devices",
+        "configurations": [
+            "Arijeet’s iPhone (mobile)",
+            "iPhone 14 Pro Max (mobile)",   
+       ]
+    }]
+}
